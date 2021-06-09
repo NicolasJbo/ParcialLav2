@@ -9,7 +9,7 @@ import lombok.Data;
 public class EuroResponse {
 
     @SerializedName("dolar")
-    private String cotizacion;
+    private ApiCotizacion cotizacion;
 
 
 }

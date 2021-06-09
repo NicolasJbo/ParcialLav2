@@ -9,7 +9,7 @@ import lombok.Data;
 public class DolarResponse {
 
     @SerializedName("casa")
-    private String casa;
+    private ApiCotizacion casa;
 
 
 }
